@@ -301,7 +301,7 @@ def read_config(
     schema_dir: Union[pathlib.Path, str] = None,
 ) -> pd.DataFrame:
     """
-    Reads a frictionliess spec config file, adds some full paths and returns as a dataframe.
+    Reads a frictionless spec config file, adds some full paths and returns as a dataframe.
 
     Args:
         config_path: Configuration file. A json file with a list of "resources"
